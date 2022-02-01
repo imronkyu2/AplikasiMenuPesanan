@@ -24,7 +24,7 @@
         <activity android:name=".UpdateMenu" />
         <activity android:name=".LihatMenu" />
         <activity android:name=".ActivityKatagori" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".home.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

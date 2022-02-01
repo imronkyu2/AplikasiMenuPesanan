@@ -7,7 +7,7 @@
     android:background="@drawable/background"
     android:orientation="vertical"
     android:padding="10sp"
-    tools:context=".MainActivity">
+    tools:context=".home.MainActivity">
 
     <View
         android:id="@+id/view2"

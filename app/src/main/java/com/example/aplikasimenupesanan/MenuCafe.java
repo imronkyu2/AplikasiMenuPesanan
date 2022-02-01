@@ -67,12 +67,12 @@ public class MenuCafe extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int item) {
                         switch(item){
                             case 0 :
-                                Intent i = new Intent(getApplicationContext(),LihatMenu.class);
+                                Intent i = new Intent(getApplicationContext(), LihatMenu.class);
                                 i.putExtra("comot", selection);
                                 startActivity(i);
                                 break;
                             case 1 :
-                                Intent in = new Intent(getApplicationContext(),UpdateMenu.class);
+                                Intent in = new Intent(getApplicationContext(), UpdateMenu.class);
                                 in.putExtra("comot", selection);
                                 startActivity(in);
                                 break;
