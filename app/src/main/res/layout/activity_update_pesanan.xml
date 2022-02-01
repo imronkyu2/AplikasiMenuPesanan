@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pisanggoreng"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".UpdatePesanan">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AEFFEB3B"
+        android:padding="10dp"
+        android:text="UPDATE PESANAN"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KODE PESANAN" />
+
+    <EditText
+        android:id="@+id/kolom_ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TANGGAL PESAN" />
+
+    <EditText
+        android:id="@+id/kolom_ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JAM" />
+
+    <EditText
+        android:id="@+id/kolom_ed3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOMOR MEJA" />
+
+    <EditText
+        android:id="@+id/kolom_ed4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <View
+        android:id="@+id/view22"
+        android:layout_width="match_parent"
+        android:layout_height="129dp" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#AEFFEB3B"
+        android:drawableLeft="@android:drawable/ic_menu_save"
+        android:text="Simpan" />
+
+    <View
+        android:id="@+id/view23"
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#AEFFEB3B"
+        android:drawableLeft="@android:drawable/ic_media_previous"
+        android:text="Kembali" />
+
+</LinearLayout>

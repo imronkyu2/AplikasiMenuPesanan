@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cappucino"
+    android:orientation="vertical"
+    tools:context=".UpdateKategori"
+    android:padding="10sp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AEFFEB3B"
+        android:padding="10dp"
+        android:text="UPDATE KATEGORI"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/view18"
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KODE JENIS" />
+
+    <EditText
+        android:id="@+id/kolom_ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAMA JENIS" />
+
+    <EditText
+        android:id="@+id/kolom_ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="188dp" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#AEFFEB3B"
+        android:drawableLeft="@android:drawable/ic_menu_save"
+        android:text="Simpan" />
+
+    <View
+        android:id="@+id/view19"
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#AEFFEB3B"
+        android:drawableLeft="@android:drawable/ic_media_previous"
+        android:text="Kembali" />
+
+</LinearLayout>

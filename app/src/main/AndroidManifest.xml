@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikasimenupesanan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UpdatePesananDetail"></activity>
+        <activity android:name=".LihatPesananDetail" />
+        <activity android:name=".PesananDetail" />
+        <activity android:name=".TambahPesanan" />
+        <activity android:name=".UpdatePesanan" />
+        <activity android:name=".LihatPesanan" />
+        <activity android:name=".ActivityPesanan" />
+        <activity android:name=".TambahKatagori" />
+        <activity android:name=".TambahMenu" />
+        <activity android:name=".MenuCafe" />
+        <activity android:name=".UpdateKategori" />
+        <activity android:name=".LihatKategori" />
+        <activity android:name=".UpdateMenu" />
+        <activity android:name=".LihatMenu" />
+        <activity android:name=".ActivityKatagori" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
